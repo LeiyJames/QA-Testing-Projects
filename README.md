@@ -6,7 +6,7 @@ Welcome to my QA Testing Dojo! 🏯 Here, I showcase my skills in software testi
 ---
 
 ## 📂 Project Structure
-QA-Testing-Projects
+QA-Testing-Projects <br>
 🤖 Automation <br>
 ✍️ Manual-Testing <br>
 🌐 API-Testing <br>
