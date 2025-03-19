@@ -20,7 +20,7 @@ QA-Testing-Projects <br>
 ---
 ## 🤖 Automation Testing - The Code Samurai 🏯⚔️
 "If something can be automated, it shall be automated!"
-This section contains scripts and frameworks for automating repetitive testing tasks. Whether it's Selenium, Cypress, or Playwright, I wield automation like a samurai wields a katana!
+This section contains scripts and frameworks for automating repetitive testing tasks. Whether it's Selenium, or Playwright, I wield automation like a samurai wields a katana!
 
 ✅ Selenium WebDriver for UI automation <br>
 ✅ Playwright for modern web testing <br>
@@ -36,10 +36,12 @@ Here, I explore software like a detective in a mystery anime 🕵️, uncovering
 ## 🌐 API Testing - The Gateway Guardian 🚪🛡️
 "APIs are like secret scrolls—powerful, yet mysterious!"
 APIs form the backbone of applications, and this section is dedicated to testing endpoints, responses, and integrations using tools like Postman, REST Assured, and SoapUI.
+
+🔐 Coming soon! <br>
 ---
 ## 🚀 Performance Testing - The Power Level Scanner 🔥💪
 "Can this system handle over 9000 users?!" 👀💥
-Every software has its limits—and my goal is to find them! Using JMeter, LoadRunner, and other tools, I push systems to their max to uncover bottlenecks.
+Every software has its limits—and my goal is to find them! Using JMeter and other tools, I push systems to their max to uncover bottlenecks.
 
 ✅ Load & stress testing with JMeter <br>
 ✅ Performance analysis & reports 📊 <br>
@@ -55,6 +57,8 @@ In this section, I don the cloak of a white-hat hacker 🏴‍☠️ to find and
 ## 🔄 CI/CD - The DevOps Summoning Jutsu 📜⚡
 "Automation is the key to a seamless deployment!"
 Here, I integrate automated tests into CI/CD pipelines, ensuring continuous quality checks in DevOps environments using Jenkins, GitHub Actions, and GitLab CI/CD.
+
+🔐 Coming soon! <br>
 ---
 ## ⚡ How to Contribute
 Are you a fellow QA warrior looking to spar? 💥 You can contribute by:
