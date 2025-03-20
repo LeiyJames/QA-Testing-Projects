@@ -1,1 +1,1 @@
-"This folder contains automation scripts for Goodapps." 
+"This folder contains playwright automation scripts." 
