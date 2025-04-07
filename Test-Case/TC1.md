@@ -63,7 +63,7 @@
 | TC003 | Scroll behavior and animations | Smooth and polished animation |
 
 ### Profile and Password Forms
-#### Profile Section
+#### Profile Forms
 | Test Case ID | Test Description | Expected Result |
 |--------------|------------------|------------------|
 | TC001 | Submitting the form with blank fields individually | Each field should trigger a specific error message |
@@ -71,7 +71,7 @@
 | TC003 | Validate email format | Must match username@email.com; show error otherwise |
 | TC004 | Handle overly long input | Display an error for exceeded character limits |
 
-#### Password Section
+#### Password Forms
 | Test Case ID | Test Description | Expected Result |
 |--------------|------------------|------------------|
 | TC001 | Enforce strong passwords (length, symbols, numbers) | Only valid with special characters included |
