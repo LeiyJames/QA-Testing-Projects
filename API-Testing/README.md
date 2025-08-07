@@ -4,10 +4,10 @@ This repository contains API test cases created for [`JSONPlaceholder`](https://
 
 ## 📁 Contents
 
-- ✅ Postman Collection: [`JSONPlaceholder Test.postman_collection.json`](./JSONPlaceholder%20Test.postman_collection.json)
+- ✅ Postman Collection: JSONPlaceholder Test.postman_collection.json
 - 📋 Test Case Documentation (Markdown):
-  - [GET & Filtering Tests](./API_Testing_Part1_GET_Filtering.md)
-  - [POST, PUT, DELETE & Negative Tests](./API_Testing_Part2_Post_Delete_Negative.md)
+  - GET & Filtering Tests
+  - POST, PUT, DELETE & Negative Tests
 
 ## 🧰 Tools Used
 
