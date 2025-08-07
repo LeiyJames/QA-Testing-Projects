@@ -1,0 +1,1816 @@
+{
+	"info": {
+		"_postman_id": "9499ebfd-2158-4914-a24d-2f65f445911b",
+		"name": "JSONPlaceholder Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42918792"
+	},
+	"item": [
+		{
+			"name": "Get Requests",
+			"item": [
+				{
+					"name": "Post",
+					"item": [
+						{
+							"name": "Get all post",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}posts",
+									"host": [
+										"{{baseURL}}posts"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get post by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}posts/1",
+									"host": [
+										"{{baseURL}}posts"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get non-existent post",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}posts/999",
+									"host": [
+										"{{baseURL}}posts"
+									],
+									"path": [
+										"999"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get comments for a post",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}posts/1/comments",
+									"host": [
+										"{{baseURL}}posts"
+									],
+									"path": [
+										"1",
+										"comments"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Comments",
+					"item": [
+						{
+							"name": "Get all comments",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}comments",
+									"host": [
+										"{{baseURL}}comments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get comment by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}comments/2",
+									"host": [
+										"{{baseURL}}comments"
+									],
+									"path": [
+										"2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Non-existent comment",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}comments/999",
+									"host": [
+										"{{baseURL}}comments"
+									],
+									"path": [
+										"999"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Albums",
+					"item": [
+						{
+							"name": "Get all albums",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}albums",
+									"host": [
+										"{{baseURL}}albums"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get album by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}albums/1",
+									"host": [
+										"{{baseURL}}albums"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Non-existent album",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}albums/999",
+									"host": [
+										"{{baseURL}}albums"
+									],
+									"path": [
+										"999"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Photos in an album",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}albums/1/photos",
+									"host": [
+										"{{baseURL}}albums"
+									],
+									"path": [
+										"1",
+										"photos"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Photos",
+					"item": [
+						{
+							"name": "Get all photos",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}photos",
+									"host": [
+										"{{baseURL}}photos"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get photo by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}photos/1",
+									"host": [
+										"{{baseURL}}photos"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Non-existent photo",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}photos/9999",
+									"host": [
+										"{{baseURL}}photos"
+									],
+									"path": [
+										"9999"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Todos",
+					"item": [
+						{
+							"name": "Get all todos",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}todos",
+									"host": [
+										"{{baseURL}}todos"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get todo by ID",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						},
+						{
+							"name": "Non-existent todo",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}todos/9999",
+									"host": [
+										"{{baseURL}}todos"
+									],
+									"path": [
+										"9999"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Users",
+					"item": [
+						{
+							"name": "Get all users",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}users",
+									"host": [
+										"{{baseURL}}users"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get user by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}users/1",
+									"host": [
+										"{{baseURL}}users"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Non-existent user",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}users/999",
+									"host": [
+										"{{baseURL}}users"
+									],
+									"path": [
+										"999"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get post from user",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}users/1/posts",
+									"host": [
+										"{{baseURL}}users"
+									],
+									"path": [
+										"1",
+										"posts"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get todos for user",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}users/1/todos",
+									"host": [
+										"{{baseURL}}users"
+									],
+									"path": [
+										"1",
+										"todos"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get comments from user",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}users/1/comments",
+									"host": [
+										"{{baseURL}}users"
+									],
+									"path": [
+										"1",
+										"comments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get album for user",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}users/1/albums",
+									"host": [
+										"{{baseURL}}users"
+									],
+									"path": [
+										"1",
+										"albums"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Filtering & Query Parameters",
+			"item": [
+				{
+					"name": "Posts (filtered)",
+					"item": [
+						{
+							"name": "Get posts by user ID 1",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}posts?userId=1",
+									"host": [
+										"{{baseURL}}posts"
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get posts for non-existent user",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}posts?userId=999",
+									"host": [
+										"{{baseURL}}posts"
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "999"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get multiple posts by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}posts?id=1&id=2&id=3",
+									"host": [
+										"{{baseURL}}posts"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "1"
+										},
+										{
+											"key": "id",
+											"value": "2"
+										},
+										{
+											"key": "id ",
+											"value": "2",
+											"disabled": true
+										},
+										{
+											"key": "id ",
+											"value": "3",
+											"disabled": true
+										},
+										{
+											"key": "id",
+											"value": "3"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Comments (filtered)",
+					"item": [
+						{
+							"name": "Get comments for post ID 1",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}comments?postId=1",
+									"host": [
+										"{{baseURL}}comments"
+									],
+									"query": [
+										{
+											"key": "postId",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Invalid postId query",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}comments?postId=abc",
+									"host": [
+										"{{baseURL}}comments"
+									],
+									"query": [
+										{
+											"key": "postId",
+											"value": "abc"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Albums (filtered)",
+					"item": [
+						{
+							"name": "Albums by user ID 1",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}albums?userId=1",
+									"host": [
+										"{{baseURL}}albums"
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Albums for invalid user",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}albums?userId=999",
+									"host": [
+										"{{baseURL}}albums"
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "999"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Photos (filtered)",
+					"item": [
+						{
+							"name": "Get photos in album 1",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}photos?albumId=1",
+									"host": [
+										"{{baseURL}}photos"
+									],
+									"query": [
+										{
+											"key": "albumId",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Todos (filtered)",
+					"item": [
+						{
+							"name": "Todos for user ID 1",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}todos?userId=1",
+									"host": [
+										"{{baseURL}}todos"
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get completed todos",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}todos?completed=true",
+									"host": [
+										"{{baseURL}}todos"
+									],
+									"query": [
+										{
+											"key": "completed",
+											"value": "true"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get incomplete todos",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}todos?completed=false",
+									"host": [
+										"{{baseURL}}todos"
+									],
+									"query": [
+										{
+											"key": "completed",
+											"value": "false"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Users (filtered)",
+					"item": [
+						{
+							"name": "Filter user by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}users?id=1",
+									"host": [
+										"{{baseURL}}users"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Multiple users by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}users?id=1&id=2&id=3",
+									"host": [
+										"{{baseURL}}users"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "1"
+										},
+										{
+											"key": "id",
+											"value": "2"
+										},
+										{
+											"key": "id",
+											"value": "3"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "POST, PUT, DELETE (Fake writes)",
+			"item": [
+				{
+					"name": "Posts",
+					"item": [
+						{
+							"name": "Create a new post",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"title\": \"New\",\r\n  \"body\": \"Post content\",\r\n  \"userId\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}posts",
+									"host": [
+										"{{baseURL}}posts"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create post with missing fields",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"title\": \"Only title\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}posts",
+									"host": [
+										"{{baseURL}}posts"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Invalid data types",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"title\": 123, \"userId\": \"abc\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}posts",
+									"host": [
+										"{{baseURL}}posts"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update post ID 1 completely",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"id\": 1, \"title\": \"Updated\", \"body\": \"New body\", \"userId\": 1 }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}posts/1",
+									"host": [
+										"{{baseURL}}posts"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update only title",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"title\": \"Patched title\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}posts/1",
+									"host": [
+										"{{baseURL}}posts"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete post ID 1",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}posts/1",
+									"host": [
+										"{{baseURL}}posts"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete non-existent post",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}posts/999",
+									"host": [
+										"{{baseURL}}posts"
+									],
+									"path": [
+										"999"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Comments",
+					"item": [
+						{
+							"name": "Create new comment",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"postId\": 1, \"name\": \"QA\", \"email\": \"qa@example.com\", \"body\": \"Test\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}comments",
+									"host": [
+										"{{baseURL}}comments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update comment",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"id\": 1, \"body\": \"Updated body\", \"email\": \"qa@edit.com\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}comments/1",
+									"host": [
+										"{{baseURL}}comments"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete comment",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"id\": 1, \"body\": \"Updated body\", \"email\": \"qa@edit.com\" }"
+								},
+								"url": {
+									"raw": "{{baseURL}}comments/1",
+									"host": [
+										"{{baseURL}}comments"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Albums",
+					"item": [
+						{
+							"name": "Create album",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"title\": \"QA Album\", \"userId\": 1 }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}albums",
+									"host": [
+										"{{baseURL}}albums"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update album",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"title\": \"Updated Album\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}albums/1",
+									"host": [
+										"{{baseURL}}albums"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete album",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}albums/1",
+									"host": [
+										"{{baseURL}}albums"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Photos",
+					"item": [
+						{
+							"name": "Create photo",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"albumId\": 1, \"title\": \"Test\", \"url\": \"https://test.com/img.jpg\", \"thumbnailUrl\": \"https://test.com/thumb.jpg\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}photos",
+									"host": [
+										"{{baseURL}}photos"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete photo",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}photos/1",
+									"host": [
+										"{{baseURL}}photos"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Todos",
+					"item": [
+						{
+							"name": "Create todo",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"title\": \"QA Task\", \"completed\": false, \"userId\": 1 }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}todos",
+									"host": [
+										"{{baseURL}}todos"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update todo",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"completed\": true }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}todos/1",
+									"host": [
+										"{{baseURL}}todos"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete todo",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}todos/1",
+									"host": [
+										"{{baseURL}}todos"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Users",
+					"item": [
+						{
+							"name": "Attempt to create user",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"name\": \"QA\", \"email\": \"qa@test.com\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}users",
+									"host": [
+										"{{baseURL}}users"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update user",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"name\": \"QA\", \"email\": \"qa@test.com\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}users/1",
+									"host": [
+										"{{baseURL}}users"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Attempt to delete user",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"name\": \"QA\", \"email\": \"qa@test.com\" }"
+								},
+								"url": {
+									"raw": "{{baseURL}}users/1",
+									"host": [
+										"{{baseURL}}users"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Negative & Edge Case Testing",
+			"item": [
+				{
+					"name": "Posts",
+					"item": [
+						{
+							"name": "Negative ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}posts/-1",
+									"host": [
+										"{{baseURL}}posts"
+									],
+									"path": [
+										"-1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Invalid string ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}posts/abc",
+									"host": [
+										"{{baseURL}}posts"
+									],
+									"path": [
+										"abc"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Missing title",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "        { \"body\": \"Content\", \"userId\": 1 }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}posts",
+									"host": [
+										"{{baseURL}}posts"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Empty body",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{}        "
+								},
+								"url": {
+									"raw": "{{baseURL}}posts",
+									"host": [
+										"{{baseURL}}posts"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Invalid data types",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"title\": 123, \"userId\": \"abc\" }"
+								},
+								"url": {
+									"raw": "{{baseURL}}posts",
+									"host": [
+										"{{baseURL}}posts"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update non-existent post",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"title\": \"Doesn't exist\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}posts/9999",
+									"host": [
+										"{{baseURL}}posts"
+									],
+									"path": [
+										"9999"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "String ID",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}posts/abc",
+									"host": [
+										"{{baseURL}}posts"
+									],
+									"path": [
+										"abc"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Patch - Empty body",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}posts/1",
+									"host": [
+										"{{baseURL}}posts"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Comments",
+					"item": [
+						{
+							"name": "Special characters",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}comments/!@#",
+									"host": [
+										"{{baseURL}}comments"
+									],
+									"path": [
+										"!@"
+									],
+									"hash": ""
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Missing email",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"postId\": 1, \"name\": \"QA\", \"body\": \"Comment\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}comments",
+									"host": [
+										"{{baseURL}}comments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Invalid email",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"email\": \"not-an-email\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}comments ",
+									"host": [
+										"{{baseURL}}comments "
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete zero ID",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}comments/0",
+									"host": [
+										"{{baseURL}}comments"
+									],
+									"path": [
+										"0"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Albums",
+					"item": [
+						{
+							"name": "Invalid ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}albums/abc",
+									"host": [
+										"{{baseURL}}albums"
+									],
+									"path": [
+										"abc"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Empty body",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}albums/1",
+									"host": [
+										"{{baseURL}}albums"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Extra field in body",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"title\": \"New\", \"extra\": \"unexpected\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}albums/1",
+									"host": [
+										"{{baseURL}}albums"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Photos",
+					"item": [
+						{
+							"name": "Non-numeric ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}photos/hello",
+									"host": [
+										"{{baseURL}}photos"
+									],
+									"path": [
+										"hello"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Missing thumbnail",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"albumId\": 1, \"title\": \"X\", \"url\": \"https://img.jpg\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}photos",
+									"host": [
+										"{{baseURL}}photos"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Special character ID",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"albumId\": 1, \"title\": \"X\", \"url\": \"https://img.jpg\" }"
+								},
+								"url": {
+									"raw": "{{baseURL}}photos/!@#",
+									"host": [
+										"{{baseURL}}photos"
+									],
+									"path": [
+										"!@"
+									],
+									"hash": ""
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Todos",
+					"item": [
+						{
+							"name": "Missing userId",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"title\": \"Task\", \"completed\": false }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}todos",
+									"host": [
+										"{{baseURL}}todos"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Non-existent update",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"completed\": true }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}todos/9999",
+									"host": [
+										"{{baseURL}}todos"
+									],
+									"path": [
+										"9999"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Invalid ID",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}todos/hello",
+									"host": [
+										"{{baseURL}}todos"
+									],
+									"path": [
+										"hello"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Users",
+					"item": [
+						{
+							"name": "Invalid user ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}users/abc",
+									"host": [
+										"{{baseURL}}users"
+									],
+									"path": [
+										"abc"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Unsupported delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}user/1",
+									"host": [
+										"{{baseURL}}user"
+									],
+									"path": [
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Not supported",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{ \"name\": \"QA\" }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}users",
+									"host": [
+										"{{baseURL}}users"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "https://jsonplaceholder.typicode.com/",
+			"type": "string"
+		}
+	]
+}
