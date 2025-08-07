@@ -1,6 +1,5 @@
 # 📘 API Testing – JSONPlaceholder Practice (Part 2)
 
-**Base URL:** [`https://jsonplaceholder.typicode.com/`](https://jsonplaceholder.typicode.com/)
 
 ---
 
