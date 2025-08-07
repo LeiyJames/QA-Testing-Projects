@@ -30,5 +30,5 @@ This repository contains API test cases created for [`JSONPlaceholder`](https://
 
 ## 🧑‍💻 Author
 
-Meri – Entry-Level QA Tester passionate about automation and learning by doing.  
+Leigh - Software QA Tester passionate about automation and learning by doing.  
 ✨ *Feel free to fork and improve or suggest additions!*
