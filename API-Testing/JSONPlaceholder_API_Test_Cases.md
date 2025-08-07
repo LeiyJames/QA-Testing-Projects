@@ -1,4 +1,4 @@
-# 📘 API Testing – JSONPlaceholder Practice - Level 1
+# 📘 API Testing – JSONPlaceholder Practice - (Part 1) 
 
 ---
 
