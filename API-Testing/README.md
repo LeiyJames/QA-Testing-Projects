@@ -14,13 +14,6 @@ This repository contains API test cases created for [`JSONPlaceholder`](https://
 - [Postman](https://www.postman.com/)
 - JSONPlaceholder Fake API
 
-## 📝 How to Use
-
-1. Clone or download this repository.
-2. Open Postman.
-3. Import the file `JSONPlaceholder Test.postman_collection.json`.
-4. Make sure `baseURL` is set to `https://jsonplaceholder.typicode.com/`.
-
 ## 🚀 Test Modules Covered
 
 - GET Requests
@@ -28,7 +21,3 @@ This repository contains API test cases created for [`JSONPlaceholder`](https://
 - POST / PUT / PATCH / DELETE
 - Negative & Edge Case Testing
 
-## 🧑‍💻 Author
-
-Leigh - Software QA Tester passionate about automation and learning by doing.  
-✨ *Feel free to fork and improve or suggest additions!*
