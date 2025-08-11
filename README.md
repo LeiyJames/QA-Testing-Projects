@@ -1,4 +1,5 @@
-🎯 QA Testing Projects - The Path of a Quality Ninja 🥷🔍
+🎯 QA Testing Projects - The Path of a Quality Ninja 🔍
+
 
 
 
